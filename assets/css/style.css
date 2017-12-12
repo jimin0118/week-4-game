@@ -1,0 +1,88 @@
+body {
+	background-image: url("https://i.imgur.com/EsaaYNW.png");
+	background-size: 1440px; 
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 35px;
+	font-weight: bold;
+    color: #e8d3c7;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+
+.Text_box{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 15px;
+	font-weight: bold;
+    color: white;
+    width: 650px;
+    margin-left: 5%;
+    padding: 3% 3% 3% 3%;	
+    border: 2px dashed #cccccc;
+}
+
+.Com_set {	
+	float: left;
+	clear: both;	
+	width: 250px;
+	height: 100px;
+	background-color: #f4efe0;
+	margin: 3% 3% 3% 5%;
+	padding-top: 50px;
+	font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+}
+
+.win_lose_box {	
+	float: left;
+	clear: both;	
+	width: 250px;
+	height: 120px;
+	border: 2px dashed #cccccc;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 25px;
+	font-weight: bold;
+    color: #e8d3c7;	
+    margin: -33% 3% 3% 120%;		
+	padding: 5% 2% 5% 2%;
+	line-height: 120%;
+}
+
+.Crystal_box {	
+	float: left;
+	clear: both;	
+	width: 500px;
+	margin: 6% 2% 8% 0;
+	margin-left: 5%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.Crystalimg {
+	float : left;
+	margin: 2% 2% 2% 2%;
+    width: 90px;
+    height: 90px;
+}
+
+.Scorebox {
+	float: left;
+	clear: both;	
+	width: 550px;
+	height: 50px;
+	background-color: #e8d3c7;
+	margin: 0 3% 10% 5%;
+	font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 120%;
+    padding-top: 10%;
+}
+
