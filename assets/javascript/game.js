@@ -1,5 +1,5 @@
 
-$( document ).ready(function(){
+$(document).ready(function(){
   var Random=Math.floor(Math.random()*101+19)
 
   $('#comNumber').text(Random);
@@ -42,7 +42,7 @@ alert ("You lost Crystal!");
   reset()
 }
 
-  $('#imgone').on ('click', function(){
+  $('#imgone').on('click', function(){
     Scorebox = Scorebox + crystalNum1;
     console.log("New Scorebox= " + Scorebox);
     $('#Score').text(Scorebox); 
@@ -54,7 +54,7 @@ alert ("You lost Crystal!");
           loser();
         }   
   })  
-  $('#imgtwo').on ('click', function(){
+  $('#imgtwo').on('click', function(){
     Scorebox = Scorebox + crystalNum2;
     console.log("New Scorebox= " + Scorebox);
     $('#Score').text(Scorebox); 
@@ -65,7 +65,7 @@ alert ("You lost Crystal!");
           loser();
         } 
   })  
-  $('#imgthree').on ('click', function(){
+  $('#imgthree').on('click', function(){
     Scorebox = Scorebox + crystalNum3;
     console.log("New Scorebox= " + Scorebox);
     $('#Score').text(Scorebox);
@@ -77,7 +77,7 @@ alert ("You lost Crystal!");
           loser();
         } 
   })  
-  $('#imgfour').on ('click', function(){
+  $('#imgfour').on('click', function(){
     Scorebox = Scorebox + crystalNum4;
     console.log("New Scorebox= " + Scorebox);
     $('#Score').text(Scorebox); 
